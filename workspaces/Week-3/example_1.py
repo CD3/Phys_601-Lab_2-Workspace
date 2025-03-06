@@ -1,6 +1,6 @@
 import pytest
 
-import Phys601
+import Phys601.math
 
 
 def riemann_integral(f, xmin, xmax, N):
@@ -77,7 +77,7 @@ def simpsons_integral_1(f, xmin, xmax, N):
 
 
 def func_to_integrate(x):
-    return Phys601.exp(-0.3)
+    return Phys601.math.exp(-0.3)
 
 
 
